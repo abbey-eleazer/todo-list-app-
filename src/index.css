@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 50vw;
+  height: 50vh;
+  margin: 10rem auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+ width: 80%;
+ border-radius: 2rem;
+ box-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .2)
+}
+
+
+.title {
+ width: 100%;
+ margin-top: 1rem;
+ padding: 1rem;
+ border-bottom: 2px solid red;
+ text-transform: uppercase;
+}
+
+form {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-bottom: 2rem;
+}
+
+.form-input {
+  width: 75%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  background-color: #eee;
+  padding:.5rem;
+  padding-left:1rem;
+}
+
+.btn {
+  width:20%;
+  padding:.5rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+
+ul {
+  width:90%;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+ }
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #eee;
+}
+.check {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.delete {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #b57d7d;
+  
+}
